@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  },
+  "functions": {
+    "api/**.py": {
+      "runtime": "python3.11"
+    }
+  }
+}
