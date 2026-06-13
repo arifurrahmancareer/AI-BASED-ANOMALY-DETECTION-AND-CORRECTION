@@ -1,0 +1,39 @@
+
+node_modules/
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weights (large files - download separately)
+# yolov8n.pt
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# PDF reports generated at runtime
+SmartDetect_Session_Report.pdf
+
+
